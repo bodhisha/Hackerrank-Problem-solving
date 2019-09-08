@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     int n,i,a[1000000],max=a[0],count=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -18,6 +19,5 @@ int main(){
         if(a[i]==max)
            count=count+1;
     }
-    printf("%d",count);
-      
+    printf("%d",count);     
 }
