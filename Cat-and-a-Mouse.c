@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main(){
+int main()
+{
     int q,i,x[100],y[100],z[100];
     scanf("%d",&q);
     for(i=0;i<q;i++)
