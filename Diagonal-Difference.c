@@ -13,8 +13,6 @@ int main(){
 
     for(i=0;i<n;i++)
     {
-        
-        
         dl=dl+a[i][i];
         dr=dr+a[i][n-1-i];
         
